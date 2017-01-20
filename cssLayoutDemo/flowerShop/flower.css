@@ -1,0 +1,151 @@
+body{
+    margin-top: 120px;
+}
+header{
+    width:100%;
+    height:100px;
+    background-color: rgba( 209, 209, 209, 0.5 );
+    position : fixed;
+    left : 0;
+    top : 0;
+    z-index:10;
+}
+header ul{
+    position : absolute;
+    left : 1200px;
+    list-style-type: none;
+    font-size: 30px;
+}
+header ul li{
+    float :left;
+    border-left : 2px solid black;
+}
+
+header ul li a{
+    margin: 0px 20px 0px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Andalus;
+    font-weight: 800;
+    color : black;
+}
+
+#container{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+section .home{
+    position : relative;
+    width:100%;
+    height:800px;
+    background: url("pic/flower_home.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+section .home  .title{
+    position : absolute;
+    margin : auto;
+    left:0;
+    top:400px;
+    bottom:0;
+    right:0;
+    font-size : 50px;
+    text-align : center;
+    font-weight : bold;
+    font-family: Andalus;
+    color : white;
+}
+section .info{
+    position : relative;
+    width: 100%;
+    height:400px;
+    background-color: lightgray;
+}
+
+section .info .order{
+    position : absolute;
+    margin : auto;
+    top : 0;
+    left:700px;
+    right:0;
+    bottom:0;
+    width:500px;
+    height:300px;
+    display: inline-block;
+}
+
+section .info .order .img{
+    width:50%;
+    height:100%;
+    background: url("pic/order.jpg") no-repeat center center;
+    background-size: 300px 300px;
+    float:left
+}
+
+section .info .order .text{
+    width:30%;
+    height:100%;
+    float:left;
+    padding : 20px;
+
+}
+
+section .info .sort{
+    position : absolute;
+    margin : auto;
+    top : 0;
+    left:-700px;
+    right:0;
+    bottom:0;
+    width:500px;
+    height:300px;
+    display: inline-block;
+}
+
+section .info .sort .img{
+    width:50%;
+    height:100%;
+    background: url("pic/sort.jpg") no-repeat center center;
+    background-size: 300px 300px;
+    float:left
+}
+
+section .info .sort .text{
+    width:30%;
+    height:100%;
+    float:left;
+    padding : 20px;
+
+}
+
+
+section .location{
+    position : relative;
+    width: 100%;
+    height:400px;
+}
+
+section .location .map{
+    position : absolute;
+    left:0;
+    right:0;
+    bottom : 0;
+    top : 80px;
+    margin : auto;
+    width: 300px;
+    height:400px;
+}
+
+
+footer{
+    text-align : center;
+    width:100%;
+    height : 100px;
+}
+

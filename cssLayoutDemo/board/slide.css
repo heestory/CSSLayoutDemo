@@ -1,0 +1,29 @@
+/*accordion btn*/
+.slideBtn{
+    position : absolute;
+    left :20px;
+    top: 30px;
+}
+.slideBtn  ul   li  a {
+    display: block;
+}
+.slideBtn > ul >  li > a{
+    background-image: url('pic/button.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    /*padding : 20px 20px;*/
+    width: 100px;
+    height:50px;
+    border-bottom : 1px solid black;
+}
+/*status of opening*/
+.slideBtn > ul > li.open > a{
+    background-color : #666666;
+}
+
+.slideBtn ul ul li a{
+    border-bottom : 1px solid black;
+    padding : 10px 20px;
+    background-color:white;
+}

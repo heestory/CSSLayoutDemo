@@ -1,0 +1,48 @@
+
+.dropdown1 > li:hover{
+    background : cadetblue;
+}
+.dropdown1 > li > a{
+    display: block;
+    text-align:center;
+    height:60px;
+    line-height: 60px;
+}
+
+.dropdown1 ul{
+    position : absolute;
+    top:-9999px;
+    z-index : 9999;
+    width:140px;
+    border : 1px solid brown;
+}
+
+.dropdown1 > li:hover > ul{
+    top : 60px;
+    left:0;
+}
+.dropdown1 ul a{
+    display:block;
+    color:black;
+    font-size : 12px;
+    line-height:40px;
+    background : white;
+    padding-left:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
