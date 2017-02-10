@@ -1,0 +1,29 @@
+
+.accordion a:hover{
+    color : black;
+}
+
+.accordion ul li a {
+    display : block;
+}
+
+.accordion > ul > li.open > a{
+
+}
+
+.accordion ul ul li a{
+    border-bottom: 1px solid black;
+    padding : 10px 20px;
+    background-color : lightblue;
+}
+
+.accordion  ul  {
+    position : absolute;
+    z-index: 3;
+}
+
+
+
+
+
+

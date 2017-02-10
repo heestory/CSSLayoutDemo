@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bookStore</title>
+    <link rel="stylesheet" href="bookStore.css" type="text/css"/>
+    <link rel="stylesheet" href="bookStoreAccordion.css" type="text/css"/>
+    <link rel="stylesheet" href="bookStoreSlide.css" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="headerImg">
+
+    </div>
+</header>
+<nav>
+    <div class="accordion store">
+        <ul>
+            <li>
+                <a href="#">Store</a>
+                <ul>
+                    <li><a href="#">Seoul</a></li>
+                    <li><a href="#">Busan</a></li>
+                    <li><a href="#">Yongin</a></li>
+                    <li><a href="#">Suwon</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="accordion books">
+        <ul>
+            <li>
+                <a href="#">Books</a>
+            </li>
+        </ul>
+    </div>
+    <div class="accordion order">
+        <ul>
+            <li>
+                <a href="#">Order</a>
+            </li>
+        </ul>
+    </div>
+    <div class="accordion login">
+        <ul>
+            <li>
+                <a href="#">Login</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<section>
+    <article class="slide_list">
+        <div class="slide1">
+            <img src="pic/slide/library.jpg" width=100% height=100% alt="" class="slide"/>
+            <img src="pic/slide/library1.jpg" width=100% height=100% alt="" class="slide"/>
+            <img src="pic/slide/library2.jpg" width=100% height=100% alt="" class="slide"/>
+            <a class="nav right" onClick="plusDivs(1)">
+            </a>
+            <a class="nav left" onClick="plusDivs(-1)">
+            </a>
+        </div>
+    </article>
+    <article class="book_list">
+        <div class="bestseller">
+            <h1>BestSeller</h1>
+            <ol>
+                <li>Lord of the Ring</li>
+                <li>Who's that guy</li>
+                <li>Picture</li>
+            </ol>
+        </div>
+        <div class="steadyseller">
+            <h1>SteadySeller</h1>
+            <ol>
+                <li>Lord of the Ring</li>
+                <li>Who's that guy</li>
+                <li>Picture</li>
+            </ol>
+        </div>
+    </article>
+</section>
+<footer>
+    <span>Designed by Hee</span>
+</footer>
+<script src="bookStore.js"></script>
+</body>
+</html>
